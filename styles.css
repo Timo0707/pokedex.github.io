@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: inline-block;
+}
+
+/* .pokemon-card {
+    background-color: black;
+    color: white;
+    width: 140px;
+    height: auto;
+} */
+
+.admin-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 60%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.pokemon-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+a {
+    display: block;
+    margin-top: 20px;
+}
+
+.returnLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    /* margin: auto; */
+    width: 120px;
+    height: 20px;
+    border-radius: 10px;
+
+    transition: font-size .5s ease;
+}
+
+.returnLogin:hover {
+    font-size: 15px;
+}
+
+.pokemon-card {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.remove-form {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.addPokemonButton {
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    white-space: nowrap;
+
+    transition: font-size .5s ease;
+}
+
+.addPokemonButton:hover {
+    font-size: 15px;
+    cursor: pointer;
+}
